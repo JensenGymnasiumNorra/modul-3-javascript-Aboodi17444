@@ -8,9 +8,25 @@ T.ex. hur man loopar eller gör if-satser i JS
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Uppgift 6+: Onward</title>
+    <title>Exempel 1 / If sats i JavaScript</title>
   </head>
-  <body></body>
+  <body>
+    <h1>If sats test</h1>
+    <p id="result"></p>
 
-  <script></script>
+    <script>
+      let number = 7;
+
+      if (number > 10) {
+        document.getElementById("result").innerHTML =
+          "Talet är större än 10";
+      } else if (number === 10) {
+        document.getElementById("result").innerHTML =
+          "Talet är exakt 10";
+      } else {
+        document.getElementById("result").innerHTML =
+          "Talet är mindre än 10";
+      }
+    </script>
+  </body>
 </html>

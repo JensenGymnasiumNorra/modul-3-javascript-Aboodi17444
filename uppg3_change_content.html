@@ -19,6 +19,32 @@
 
     <script>
       // TODO: Skapa funktionerna showCarbonara() och showPizza() för att visa ingredienserna för respektive recept i diven ingredients
+      function showCarbonara() {
+        document.getElementById("ingredients").innerHTML = `
+          <h3>Carbonara ingredients</h3>
+          <ul>
+            <li>Pasta</li>
+            <li>Egg</li>
+            <li>Pancetta / Bacon</li>
+            <li>Parmesan cheese</li>
+            <li>Black pepper</li>
+          </ul>
+        `;
+      }
+
+      function showPizza() {
+        document.getElementById("ingredients").innerHTML = `
+          <h3>Pizza ingredients</h3>
+          <ul>
+            <li>Pizza dough</li>
+            <li>Tomato sauce</li>
+            <li>Cheese</li>
+            <li>Olive oil</li>
+            <li>Oregano</li>
+          </ul>
+        `;
+      }
     </script>
   </body>
 </html>
+
